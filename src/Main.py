@@ -2366,7 +2366,7 @@ class main:
         self.titlestyle5 = font.SysFont("Comic Sans", 26)
         # standing animations
         self.spritesAnim = []
-        self.spritesAnim = splitter(image.load("./LinkTiles.png"), 8, 12)
+        self.spritesAnim = splitter(image.load("LinkTiles.png"), 8, 12)
         # slashing animationa
         self.slashAnim = []
         for num in range(7):
